@@ -6,10 +6,12 @@
     <?php wp_head(); ?>
   </head>
 
-  <body<?php body_class(); ?>>
+  <body <?php body_class(); ?>>
 
   <?php
     	$defaults = array(
+        'menu_class'=>'side-nav fixed',
+        'menu_id' => 'slide-out-nav',
     		'container'=> false,
     		'theme_locaiton' => 'primary-menu',
     	); //container boolean determines whether wrapped in auto-generated div

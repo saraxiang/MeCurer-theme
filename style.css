@@ -62,3 +62,7 @@ header, main, footer {
 	font-size: 2rem;
 	font-weight: bold;
 }
+
+.logged-in #slide-out-nav {
+	padding-top: 32px;
+}
