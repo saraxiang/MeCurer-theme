@@ -1,0 +1,64 @@
+/*
+ Theme Name:   MeCurer 2.0
+ Theme URI:    
+ Description:  MeCurer Company Website Theme
+ Author:       Sara Xiang
+ Author URI:   
+ Version:      2.0.0
+ License:      
+ License URI:  
+ Tags: 			
+*/
+
+body {
+	/* BEGIN - added for sticky footer */
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /* END - added for sticky footer */
+  }
+
+main {
+	/* BEGIN - added for sticky footer */
+    flex: 1 0 auto;
+    /* END - added for sticky footer */
+}
+
+nav {
+	background-color: #81c784;
+}
+
+footer.page-footer {
+	background-color: #81c784;
+}
+
+.page-title {
+	font-size: 2rem;
+}
+
+header, main, footer {
+  padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+/* override materialize.css default */
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+  }
+}
+
+#logo {
+	text-align: center;
+	color: white;
+	background-color: #81c784;
+	margin: 1rem 2.5rem 0rem 2.5rem;
+	font-family: Asap;
+	font-size: 2rem;
+	font-weight: bold;
+}
