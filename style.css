@@ -32,6 +32,10 @@ footer.page-footer {
 	background-color: #81c784;
 }
 
+.side-nav .collapsible-body li.active, .side-nav.fixed .collapsible-body li.active {
+	background-color: #81c784;
+}
+
 .page-title {
 	font-size: 2rem;
 }

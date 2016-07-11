@@ -12,7 +12,6 @@
 			<h2><?php the_title() ?></h2>
 			<h5>Hardcoded Details</h5>
 			<p><?php the_content() ?></p>        
-			<hr>
 	<?php endwhile; else : ?>
 
 		<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>

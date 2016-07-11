@@ -12,6 +12,12 @@ jQuery( document ).ready(function( $ ) {
         $(this).prev().addBack().wrapAll('<ul class="collapsible collapsible-accordion"><li></li></ul>');
     });
 	$('.collapsible').children('li').children('a').addClass('collapsible-header');
+
+
+	//open and highlight section of nav bar corresponding to current page
+	$('.current-menu-ancestor').find('.collapsible-header').addClass('active');
+	$('.current_page_item').addClass('active');
+
 	$('.collapsible').collapsible();
 
 });
