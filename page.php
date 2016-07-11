@@ -2,7 +2,7 @@
 <header>
   <nav>
     <a href="#" data-activates="slide-out-nav" class="button-collapse"><i class="material-icons">menu</i></a>
-    <div class="container page-title"> Page Name - index.php being loaded </div>
+    <div class="container page-title"> page.php being loaded </div>
   </nav>
 </header>
 
